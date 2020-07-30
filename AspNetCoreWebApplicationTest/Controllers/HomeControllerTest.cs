@@ -14,7 +14,7 @@ namespace AspNetCoreWebApplicationTest.Controllers
             Assert.Single(result.ViewData);
             Assert.Equal("You just created a ASP.Net Core web application!", result.ViewData["Message"]);
         }
-        
+        //hello
         /*[Fact]
         public void NoInputParamGetResponseTest()
         {
